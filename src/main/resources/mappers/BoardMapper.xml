@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.toyproject.comm.mybatis.BoardMapper">
+	<resultMap type="com.toyproject.comm.dto.BoardDTO" id="Board">
+		<id property="MENU_ID" column="MENU_ID" />
+		<id property="BOARD_ID" column="BOARD_ID" />
+		<result property="TITLE" column="TITLE" />
+		<result property="CONTENT" column="CONTENT" />
+		<result property="VIEW_CNT" column="VIEW_CNT" />
+		<result property="LIKE_CNT" column="LIKE_CNT" />
+		<result property="UNLIKE_CNT" column="UNLIKE_CNT" />
+		<result property="INSERT_USER_ID" column="INSERT_USER_ID" />
+		<result property="DATE" column="DATE" />
+	</resultMap>
+</mapper>
+	
